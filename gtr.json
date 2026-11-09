@@ -1,0 +1,20 @@
+{
+    "$schema": "https://raw.githubusercontent.com/shibisty/gtr/main/schema/gtr.schema.json",
+    "name": "orm-gen",
+    "version": "0.1.0",
+    "description": "Generates orm.Mapper methods for orm models: rows and documents mapped without reflection",
+    "license": "MIT",
+    "repository": "github:shibisty/orm.go-gen",
+    "engines": {
+        "go": ">=1.22"
+    },
+    "devDependencies": {
+        "orm": "github:shibisty/orm.go"
+    },
+    "peerDependencies": {
+        "orm": "^0.2.1"
+    },
+    "scripts": {
+        "test": "go test ./..."
+    }
+}
